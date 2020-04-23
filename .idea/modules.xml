@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSkillHelper.iml" filepath="$PROJECT_DIR$/AndroidSkillHelper.iml" group="AndroidSkillHelper" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidSkillHelper/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ash/ash.iml" filepath="$PROJECT_DIR$/.idea/modules/ash/ash.iml" group="AndroidSkillHelper/ash" />
     </modules>
   </component>
 </project>
