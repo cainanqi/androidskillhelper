@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cnq.androidskillhelper">
+    package="com.cnq.androidSkillhelper">
 
     <uses-permission android:name="android.permission.NFC" />
     <!-- 声明需要硬件支持nfc -->
