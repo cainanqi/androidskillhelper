@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
  * Date  :2020/5/28
  * ============================
  **/
-class FirstViewModel :BaseLiveDataViewModel<MyApiService,FirstDataSource>(){
+class FirstViewModel :BaseLiveDataViewModel<FirstDataSource>(){
 
 
     val currentTime1=mDataSource.getCurrentTime()

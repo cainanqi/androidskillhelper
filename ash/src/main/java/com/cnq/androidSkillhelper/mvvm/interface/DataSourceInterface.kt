@@ -14,7 +14,7 @@ import com.cnq.androidSkillhelper.net.retrofit.ApiService
  * Date  :2020/5/26
  * ============================
  **/
-interface  DataSourceInterface<T> : LifecycleObserver {
+interface  DataSourceInterface : LifecycleObserver {
 
  @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
  public fun doOnCreate() {

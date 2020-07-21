@@ -45,11 +45,12 @@ object LanguageHelper {
      * 保存设置的语言
      */
     fun saveLanguage(mContext: Context, newLanguage: String) {
-        SPUtils.put(mContext, SPUtils.LANGUAGE, newLanguage)
+      //  SPUtils.put(mContext, SPUtils.LANGUAGE, newLanguage)
     }
 
     fun getSavedLanguage(mContext: Context): String {
-        return SPUtils.get(mContext, SPUtils.LANGUAGE, "it") as String
+       // return SPUtils.get(mContext, SPUtils.LANGUAGE, "it") as String
+        return ""
     }
 
     fun getSavedLanguageLocale(mContext: Context): Locale {

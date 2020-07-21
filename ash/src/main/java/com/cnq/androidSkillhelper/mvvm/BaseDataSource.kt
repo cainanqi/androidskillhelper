@@ -18,8 +18,8 @@ import com.cnq.androidSkillhelper.net.retrofit.ApiService
  * ============================
  **/
 @Suppress("UNCHECKED_CAST")
-abstract class BaseDataSource<T> : DataSourceInterface<T> {
-    var apiService = NetUtils2.getInstance().apiService as T
+abstract class BaseDataSource : DataSourceInterface {
+  //  var apiService = NetUtils2.getInstance().apiService
 
 
 }

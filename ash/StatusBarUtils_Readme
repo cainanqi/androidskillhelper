@@ -1,0 +1,44 @@
+ 1.普通效果
+ //清单文件中要设置主题为NoActionBar
+ StatusBarUtils.with(this)
+                .setColor(getResources().getColor(R.color.blue))
+                .init();
+
+ 2.图片背景效果
+  //清单文件中要设置主题为NoActionBar
+ //在布局文件中设置的第一个view的背景图片则为当前状态栏背景图片
+  StatusBarUtils.with(this)
+                 .init();
+
+ 3.侧滑页面状态栏效果
+  //清单文件中要设置主题为NoActionBar
+ //R.id.rl_content为主页面布局
+ //代码中设置的为主页面状态栏
+ //在侧滑页面布局文件中设置的第一个view的背景图片则为侧滑状态栏背景图片
+       StatusBarUtils.with(this)
+                 .setDrawerLayoutContentId(true, R.id.rl_content)
+                 .setColor(getResources().getColor(R.color.blue))
+                 .init();
+
+4.自定义渐变状态栏
+                  //当前案例含ActionBar
+                     StatusBarUtils.with(this)
+                                 .setIsActionBar(true)
+                                 .clearActionBarShadow()
+                                 .setDrawable(getResources().getDrawable(R.drawable.shape))
+                                 .init();
+
+
+
+                                 <?xml version="1.0" encoding="utf-8"?>
+                                 <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                                     android:shape="rectangle">
+自定义渐变shape
+<gradient
+                                         android:angle="0"
+                                         android:centerX="0.7"
+                                         android:endColor="@color/shape2"
+                                         android:startColor="@color/shape1"
+                                         android:centerColor="@color/shape3"
+                                         android:type="linear" />
+                                 </shape>

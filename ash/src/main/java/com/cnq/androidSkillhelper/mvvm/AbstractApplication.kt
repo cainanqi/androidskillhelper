@@ -2,6 +2,7 @@ package com.cnq.androidSkillhelper.mvvm
 
 import android.app.Application
 import android.content.Context
+import com.cnq.androidSkillhelper.manager.SPUtils
 import com.cnq.androidSkillhelper.net.NetUtils2
 import com.cnq.androidSkillhelper.net.retrofit.ApiService
 import com.facebook.stetho.Stetho
@@ -17,15 +18,17 @@ abstract class AbstractApplication : Application() {
         context = applicationContext
         init()
         Stetho.initializeWithDefaults(this)
-        initNetUtils()
+     //   initNetUtils()
+        SPUtils.initialize(this)
     }
 
     abstract fun init()
-    abstract fun initNetUtils()
+   // abstract fun initNetUtils()
 
     companion object {
         var application: AbstractApplication? = null
             private set
+
         @JvmStatic
         var context: Context? = null
             private set

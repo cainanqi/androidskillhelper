@@ -15,7 +15,7 @@ import com.cnq.testmodule.databinding.SecondFragmentBinding
 import com.cnq.testmodule.service.MyApiService
 import com.cnq.testmodule.viewmodel.FirstViewModel
 
-class SecondFragment : BaseLiveDataFragment<SecondFragmentBinding,MyApiService,FirstDataSource,FirstViewModel>() {
+class SecondFragment : BaseLiveDataFragment<SecondFragmentBinding,FirstDataSource,FirstViewModel>() {
     override fun getLayoutId(): Int {
         return R.layout.second_fragment
     }

@@ -21,10 +21,5 @@ class MyApplication : AbstractApplication(){
     override fun init() {
     }
 
-    override fun initNetUtils() {
-        Log.d("BaseDataSource", "初始化网络框架")
-        NetUtils2.getInstance().init("http://pointsme.saonian.org/api/",MyApiService::class.java)
-        Log.d("BaseDataSource", "apiService22是否为空=${NetUtils2.getInstance().apiService}")
 
-    }
 }

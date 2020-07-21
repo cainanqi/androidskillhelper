@@ -45,7 +45,7 @@ versions.espressoX = "3.1.0"
 versions.core_ktx = "1.1.0"
 versions.androidx_core = "1.2.0-rc01"
 versions.appcompat = "1.1.0"
-versions.nav_version = "2.3.0-alpha01"
+versions.nav_version = "2.3.0"
 versions.places = "2.1.0"
 
 

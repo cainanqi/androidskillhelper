@@ -22,7 +22,7 @@ import com.cnq.androidSkillhelper.ui.dialog.LoadingDialog
  * Date  :2020/5/26
  * ============================
  **/
-abstract class BaseLiveDataFragment<VB:ViewDataBinding,AP,DS:BaseDataSource<AP>,VM:BaseLiveDataViewModel<AP,DS>>:Fragment(){
+abstract class BaseLiveDataFragment<VB:ViewDataBinding,DS:BaseDataSource,VM:BaseLiveDataViewModel<DS>>:Fragment(){
     var rootView: View? = null
     protected lateinit var mBinding: VB
 

@@ -91,20 +91,20 @@ public class NetUtils2<T> {
                 header.put("X-Client-Version", PackageUtils.getVersionName(AbstractApplication.getContext()));
                 header.put("X-Client-Type", LocalConstant.client_name);
                 header.put("Accept-Language", LanguageHelper.INSTANCE.getSavedLanguage(AbstractApplication.getContext()));
-                String authorization = (String) SPUtils.get(AbstractApplication.getContext(),SPUtils.key_authorization,"");
-                if (!TextUtils.isEmpty(authorization)) {
-                    header.put("Authorization", authorization);
-                }
+//                String authorization = (String) SPUtils.get(AbstractApplication.getContext(),SPUtils.key_authorization,"");
+//                if (!TextUtils.isEmpty(authorization)) {
+//                    header.put("Authorization", authorization);
+//                }
             } catch (Exception e) {
                 e.printStackTrace();
                 header.put("X-Request-Id", UUIdUtils.createUUId());
                 header.put("X-Client-Version", PackageUtils.getVersionName(AbstractApplication.getContext()));
                 header.put("X-Client-Type", LocalConstant.client_name);
                 header.put("Accept-Language", LanguageHelper.INSTANCE.getSavedLanguage(AbstractApplication.getContext()));
-                String authorization = (String) SPUtils.get(AbstractApplication.getContext(),SPUtils.key_authorization,"");
-                if (!TextUtils.isEmpty(authorization)) {
-                    header.put("Authorization", authorization);
-                }
+//                String authorization = (String) SPUtils.get(AbstractApplication.getContext(),SPUtils.key_authorization,"");
+//                if (!TextUtils.isEmpty(authorization)) {
+//                    header.put("Authorization", authorization);
+//                }
             }
             header.put("Courier-Api-Key", "51357171");
             return header;

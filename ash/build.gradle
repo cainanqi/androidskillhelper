@@ -6,14 +6,14 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "28.0.3"
     resourcePrefix "ash"
 
     defaultConfig {
         // applicationId "com.yanzhenjie.andserver.sample" // 这一行要删除，因为library不允许有applicationId。
-        minSdkVersion 23
-        targetSdkVersion 29
+        minSdkVersion 21
+        targetSdkVersion 30
         versionCode 1
         versionName '1.0.0'
     }
@@ -25,23 +25,28 @@ android {
     dataBinding {
         enabled = true
     }
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
 
 }
 dependencies {
     // 如果你的library有依赖别的jar，这里要把jar依赖进来。
     implementation fileTree(dir: 'libs', includes: ['*.jar'])
-    implementation "androidx.core:core-ktx:+"
+    implementation 'com.tencent:mmkv-static:1.1.2'
+
+    implementation "androidx.core:core-ktx:1.3.0"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //解析数据，Gson方式json
-    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     //结合RxJava2使用
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
     //线程切换
-    implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
-    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.19'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
     implementation "com.facebook.stetho:stetho:${versions.stetho}"
     implementation "com.facebook.stetho:stetho-okhttp3:${versions.stetho}"
@@ -62,7 +67,7 @@ dependencies {
 }
 
 // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
-version = "1.0.1"
+version = "1.01.8"
 
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://https://github.com/cainanqi/androidskillhelper' // 项目主页。
