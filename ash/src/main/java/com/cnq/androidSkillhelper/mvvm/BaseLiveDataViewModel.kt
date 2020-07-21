@@ -1,11 +1,8 @@
-package com.cnq.androidSkillhelper.mvvm
+package com.cnq.androidskillhelper.mvvm
 
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider.NewInstanceFactory
-import com.cnq.androidSkillhelper.net.retrofit.ApiService
-import javax.sql.DataSource
 
 /**
  * ============================
@@ -17,7 +14,7 @@ import javax.sql.DataSource
  **/
 @Suppress("UNCHECKED_CAST")
 abstract class BaseLiveDataViewModel<DS : BaseDataSource> : ViewModel() {
-    protected lateinit var mDataSource: DS
+    protected var mDataSource: DS
 
 
     private val showDialog: MutableLiveData<String> by lazy {

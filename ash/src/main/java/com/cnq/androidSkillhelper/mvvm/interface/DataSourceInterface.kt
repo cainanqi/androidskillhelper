@@ -1,10 +1,9 @@
-package com.cnq.androidSkillhelper.mvvm.`interface`
+package com.cnq.androidskillhelper.mvvm.`interface`
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
-import com.cnq.androidSkillhelper.net.retrofit.ApiService
 
 /**
  * ============================

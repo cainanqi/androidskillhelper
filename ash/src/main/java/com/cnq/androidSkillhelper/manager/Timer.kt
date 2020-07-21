@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.manager
+package com.cnq.androidskillhelper.manager
 
 import android.os.CountDownTimer
 import android.util.Log
@@ -19,13 +19,13 @@ class Timer :LifecycleObserver{
     private var times=0//定时器次数
     private var interval=0L//间隔
     private var hasDoTimes=0//已经执行的次数
-    private lateinit var timeCallback:TimerCallback
+    private lateinit var timeCallback: TimerCallback
 
 
 
     private var counter:CountDownTimer?=null
 
-    fun start(time:Int,interval:Long,timeCallback:TimerCallback){
+    fun start(time:Int,interval:Long,timeCallback: TimerCallback){
         Log.d("TimerTimer","=onstart")
         this.times=time
         this.interval=interval

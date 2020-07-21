@@ -5,6 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
+
 android {
     compileSdkVersion 30
     buildToolsVersion "28.0.3"
@@ -67,7 +68,7 @@ dependencies {
 }
 
 // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
-version = "1.01.8"
+version = "1.01.20"
 
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://https://github.com/cainanqi/androidskillhelper' // 项目主页。
@@ -125,6 +126,17 @@ task javadoc(type: Javadoc) {
     // destinationDir = file("../javadoc/")
     failOnError false // 忽略注释语法错误，如果用jdk1.8你的注释写的不规范就编译不过。
 }
+
+javadoc {
+    options {
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        author true
+        version true links "http://docs.oracle.com/javase/7/docs/api"
+    }
+
+}
+
 // 生成javaDoc的jar，不需要修改。
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'

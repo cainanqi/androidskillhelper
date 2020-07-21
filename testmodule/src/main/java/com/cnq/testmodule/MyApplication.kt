@@ -1,10 +1,7 @@
 package com.cnq.testmodule
 
-import android.util.Log
-import cn.leancloud.AVOSCloud
-import com.cnq.androidSkillhelper.mvvm.AbstractApplication
+import com.cnq.androidskillhelper.mvvm.AbstractApplication
 import com.cnq.androidSkillhelper.net.NetUtils2
-import com.cnq.testmodule.service.MyApiService
 
 /**
  * ============================

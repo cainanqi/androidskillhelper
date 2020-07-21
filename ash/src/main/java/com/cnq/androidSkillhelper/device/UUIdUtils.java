@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.device;
+package com.cnq.androidskillhelper.device;
 
 import java.util.UUID;
 

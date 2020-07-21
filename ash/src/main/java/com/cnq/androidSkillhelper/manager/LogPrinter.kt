@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.manager
+package com.cnq.androidskillhelper.manager
 
 import android.util.Log
 
@@ -25,7 +25,7 @@ class LogPrinter {
         }
 
         fun init(openOrClose :Boolean){
-            openOrClose1=openOrClose
+            openOrClose1 =openOrClose
         }
         fun allowLog():Boolean{
            return openOrClose1

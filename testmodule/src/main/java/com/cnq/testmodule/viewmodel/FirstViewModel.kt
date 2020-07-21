@@ -1,12 +1,7 @@
 package com.cnq.testmodule.viewmodel
 
-import android.util.Log
-import androidx.lifecycle.viewModelScope
-import com.cnq.androidSkillhelper.mvvm.BaseDataSource
-import com.cnq.androidSkillhelper.mvvm.BaseLiveDataViewModel
+import com.cnq.androidskillhelper.mvvm.BaseLiveDataViewModel
 import com.cnq.testmodule.FirstDataSource
-import com.cnq.testmodule.service.MyApiService
-import kotlinx.coroutines.launch
 
 /**
  * ============================
@@ -16,7 +11,7 @@ import kotlinx.coroutines.launch
  * Date  :2020/5/28
  * ============================
  **/
-class FirstViewModel :BaseLiveDataViewModel<FirstDataSource>(){
+class FirstViewModel : BaseLiveDataViewModel<FirstDataSource>(){
 
 
     val currentTime1=mDataSource.getCurrentTime()

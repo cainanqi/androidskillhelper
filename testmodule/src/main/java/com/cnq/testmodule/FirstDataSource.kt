@@ -3,12 +3,11 @@ package com.cnq.testmodule
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
-import com.cnq.androidSkillhelper.mvvm.BaseDataSource
+import com.cnq.androidskillhelper.mvvm.BaseDataSource
 import com.cnq.androidSkillhelper.net.NetUtils2
 import com.cnq.androidSkillhelper.net.retrofit.ApiException
 import com.cnq.androidSkillhelper.net.retrofit.ApiService
 import com.cnq.androidSkillhelper.net.retrofit.ResponseResultListener
-import com.cnq.testmodule.service.MyApiService
 import kotlinx.coroutines.delay
 
 /**

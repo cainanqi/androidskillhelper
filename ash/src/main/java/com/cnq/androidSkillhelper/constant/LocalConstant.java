@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.constant;
+package com.cnq.androidskillhelper.constant;
 
 /**
  * ============================

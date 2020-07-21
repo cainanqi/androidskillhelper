@@ -1,4 +1,4 @@
-package com.pointsme.basemodule.manager
+package com.cnq.androidskillhelper.manager
 
 import android.app.Activity
 import android.content.Context

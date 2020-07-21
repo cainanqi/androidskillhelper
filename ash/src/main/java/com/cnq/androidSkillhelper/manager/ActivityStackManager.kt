@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.manager
+package com.cnq.androidskillhelper.manager
 
 import android.app.Activity
 import android.app.ActivityManager

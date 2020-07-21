@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.device;
+package com.cnq.androidskillhelper.device;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;

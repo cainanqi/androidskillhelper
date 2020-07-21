@@ -1,6 +1,5 @@
-package com.cnq.androidSkillhelper.ui.utils
+package com.cnq.androidskillhelper.ui.utils
 
-import android.R
 import android.app.Activity
 import android.content.Context
 import android.graphics.Color
@@ -16,6 +15,7 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import com.cnq.androidSkillhelper.R
 
 
 /**

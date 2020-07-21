@@ -1,12 +1,6 @@
-package com.cnq.androidSkillhelper.mvvm
+package com.cnq.androidskillhelper.mvvm
 
-import android.util.Log
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleObserver
-import androidx.lifecycle.OnLifecycleEvent
-import com.cnq.androidSkillhelper.mvvm.`interface`.DataSourceInterface
-import com.cnq.androidSkillhelper.net.NetUtils2
-import com.cnq.androidSkillhelper.net.retrofit.ApiService
+import com.cnq.androidskillhelper.mvvm.`interface`.DataSourceInterface
 
 /**
  * ============================
@@ -19,7 +13,6 @@ import com.cnq.androidSkillhelper.net.retrofit.ApiService
  **/
 @Suppress("UNCHECKED_CAST")
 abstract class BaseDataSource : DataSourceInterface {
-  //  var apiService = NetUtils2.getInstance().apiService
 
 
 }
