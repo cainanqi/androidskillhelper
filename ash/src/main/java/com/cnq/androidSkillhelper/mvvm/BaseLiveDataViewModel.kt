@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.mvvm
+package com.cnq.androidSkillhelper.mvvm
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

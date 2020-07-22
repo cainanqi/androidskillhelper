@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.manager;
+package com.cnq.androidSkillhelper.manager;
 
 /**
  * Created by john on 2016/7/25.

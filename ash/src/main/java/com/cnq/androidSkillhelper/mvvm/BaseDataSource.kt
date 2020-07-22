@@ -1,6 +1,6 @@
-package com.cnq.androidskillhelper.mvvm
+package com.cnq.androidSkillhelper.mvvm
 
-import com.cnq.androidskillhelper.mvvm.`interface`.DataSourceInterface
+import com.cnq.androidSkillhelper.mvvm.`interface`.DataSourceInterface
 
 /**
  * ============================

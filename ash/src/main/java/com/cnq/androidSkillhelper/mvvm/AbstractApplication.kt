@@ -1,8 +1,8 @@
-package com.cnq.androidskillhelper.mvvm
+package com.cnq.androidSkillhelper.mvvm
 
 import android.app.Application
 import android.content.Context
-import com.cnq.androidskillhelper.manager.SPUtils
+import com.cnq.androidSkillhelper.manager.SPUtils
 import com.facebook.stetho.Stetho
 
 /**

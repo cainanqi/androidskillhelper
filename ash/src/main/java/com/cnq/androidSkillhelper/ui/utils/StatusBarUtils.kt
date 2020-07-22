@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.ui.utils
+package com.cnq.androidSkillhelper.ui.utils
 
 import android.app.Activity
 import android.content.Context

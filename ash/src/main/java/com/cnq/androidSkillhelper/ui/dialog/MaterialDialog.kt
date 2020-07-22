@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.ui.dialog
+package com.cnq.androidSkillhelper.ui.dialog
 
 /**
  * ============================

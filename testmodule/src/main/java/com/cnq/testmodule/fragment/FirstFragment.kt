@@ -2,7 +2,7 @@ package com.cnq.testmodule.fragment
 
 import android.util.Log
 import androidx.lifecycle.Observer
-import com.cnq.androidskillhelper.mvvm.BaseLiveDataFragment
+import com.cnq.androidSkillhelper.mvvm.BaseLiveDataFragment
 import com.cnq.testmodule.FirstDataSource
 import com.cnq.testmodule.R
 import com.cnq.testmodule.databinding.FragmentFirstBinding

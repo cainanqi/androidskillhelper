@@ -7,16 +7,17 @@
     android:orientation="horizontal"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    android:paddingTop="4dp"
-    android:paddingBottom="4dp">
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
 
     <TextView
         android:id="@+id/toastText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="#F7A87B"
-        android:fontFamily="@font/bbcreith"
+        android:text="welcome 你好"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pinfan_normal"
         android:textSize="16sp"
         tools:ignore="MissingConstraints" />
 </LinearLayout>

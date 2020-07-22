@@ -1,6 +1,6 @@
 package com.cnq.testmodule.fragment
 
-import com.cnq.androidskillhelper.mvvm.BaseLiveDataFragment
+import com.cnq.androidSkillhelper.mvvm.BaseLiveDataFragment
 import com.cnq.testmodule.FirstDataSource
 
 import com.cnq.testmodule.R

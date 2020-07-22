@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.framework.rxjava;
+package com.cnq.androidSkillhelper.framework.rxjava;
 
 import io.reactivex.ObservableTransformer;
 import io.reactivex.Scheduler;

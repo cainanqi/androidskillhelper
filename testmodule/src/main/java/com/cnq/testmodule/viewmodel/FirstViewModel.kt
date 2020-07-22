@@ -1,6 +1,6 @@
 package com.cnq.testmodule.viewmodel
 
-import com.cnq.androidskillhelper.mvvm.BaseLiveDataViewModel
+import com.cnq.androidSkillhelper.mvvm.BaseLiveDataViewModel
 import com.cnq.testmodule.FirstDataSource
 
 /**

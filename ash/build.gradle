@@ -68,11 +68,11 @@ dependencies {
 }
 
 // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
-version = "1.01.20"
+version = "1.01.24"
 
 // 定义两个链接，下面会用到。
-def siteUrl = 'https://https://github.com/cainanqi/androidskillhelper' // 项目主页。
-def gitUrl = 'https://github.com/cainanqi/androidskillhelper.git' // Git仓库的url。
+def siteUrl = 'https://https://github.com/cainanqi/androidSkillhelper' // 项目主页。
+def gitUrl = 'https://github.com/cainanqi/androidSkillhelper.git' // Git仓库的url。
 
 // 唯一包名，比如compile 'com.yanzhenjie:andserver:1.0.1'中的com.yanzhenjie就是这里配置的。
 group = "com.cainanqi"

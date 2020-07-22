@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.manager
+package com.cnq.androidSkillhelper.manager
 
 import android.content.Context
 import android.graphics.Color
@@ -6,6 +6,8 @@ import android.os.Looper
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
+import android.view.animation.Animation
+import android.view.animation.ScaleAnimation
 import android.widget.TextView
 import android.widget.Toast
 import com.cnq.androidSkillhelper.R
@@ -49,6 +51,9 @@ object ToastManager {
         toast.duration = Toast.LENGTH_LONG//setDuration方法：设置持续时间，以毫秒为单位。该方法是设置补间动画时间长度的主要方法
         toast.view = view //添加视图文件
 
+        val anim=ScaleAnimation(0f,1f,0f,1f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f)
+        anim.duration=300
+        toast.view?.startAnimation(anim)
         toast.show()
         if (Thread.currentThread() != Looper.getMainLooper().thread) {
             Looper.loop()

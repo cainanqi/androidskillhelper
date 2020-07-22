@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.manager
+package com.cnq.androidSkillhelper.manager
 
 import android.util.Log
 

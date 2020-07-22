@@ -1,4 +1,4 @@
-package com.cnq.androidskillhelper.mvvm.`interface`
+package com.cnq.androidSkillhelper.mvvm.`interface`
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle
