@@ -1,6 +1,6 @@
 <resources>
-    <string name="hint">提示</string>
-    <string name="sure">OK</string>
-    <string name="cancel">取消</string>
-    <string name="language">语言</string>
+    <string name="ash_hint">Rapide</string>
+    <string name="ash_sure">D\'accord</string>
+    <string name="ash_cancel">Annuler</string>
+    <string name="ash_waiting">S\'il vous plaît, attendez…</string>
 </resources>

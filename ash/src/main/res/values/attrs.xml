@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="CommonTitleLayout" tools:ignore="ResourceName">
+        <attr name="ash_title" format="string"  />
+        <attr name="ash_background" format="reference|color"  />
+    </declare-styleable>
+</resources>

@@ -16,7 +16,7 @@ import com.cnq.androidSkillhelper.R
 object MaterialDialogManager {
 
     fun showMessage(context: Context, message: String) {
-        showMessage(context, context.getString(R.string.hint), message)
+        showMessage(context, context.getString(R.string.ash_hint), message)
     }
 
     fun showMessage(context: Context, title: String, message: String) {
@@ -30,9 +30,9 @@ object MaterialDialogManager {
     fun showWithButton(activity: Activity?, content: String, successCallback: SuccessCallback?) {
         if (activity != null && !activity.isFinishing){
             MaterialDialog(activity).show {
-                title(text = context.getString(R.string.hint))
+                title(text = context.getString(R.string.ash_hint))
                 message(text = content)
-                positiveButton(text = context.getString(R.string.sure)) {
+                positiveButton(text = context.getString(R.string.ash_sure)) {
                     successCallback?.clickSuccess()
                 }
             }
@@ -44,10 +44,10 @@ object MaterialDialogManager {
         MaterialDialog(context).show {
             title(text = title)
             message(text = content)
-            positiveButton(text = context.getString(R.string.sure)) {
+            positiveButton(text = context.getString(R.string.ash_sure)) {
                 successCallback?.clickSuccess()
             }
-            negativeButton(text = context.getString(R.string.cancel))
+            negativeButton(text = context.getString(R.string.ash_cancel))
         }
     }
 
@@ -57,7 +57,7 @@ object MaterialDialogManager {
             return
         }
         MaterialDialog(context).show {
-            title(text = context.getString(R.string.hint))
+            title(text = context.getString(R.string.ash_hint))
             message(text = content)
             positiveButton(text = positive) {
                 successCallback?.clickSuccess()

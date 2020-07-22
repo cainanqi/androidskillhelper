@@ -12,7 +12,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.cnq.androidSkillhelper.manager.Timer
-import com.cnq.androidSkillhelper.ui.dialog.LoadingDialog
+import com.cnq.androidSkillhelper.ui.dialog.Loading
 
 /**
  * ============================
@@ -28,7 +28,6 @@ abstract class BaseLiveDataFragment<VB : ViewDataBinding, DS : BaseDataSource, V
     protected lateinit var mBinding: VB
 
     protected lateinit var mViewModel: VM
-    private lateinit var loading: LoadingDialog
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -36,7 +35,6 @@ abstract class BaseLiveDataFragment<VB : ViewDataBinding, DS : BaseDataSource, V
     ): View? {
         if (rootView == null) {
             rootView = inflater.inflate(getLayoutId(), container, false)
-            loading = LoadingDialog(requireContext())
 
         }
         return rootView
@@ -44,8 +42,8 @@ abstract class BaseLiveDataFragment<VB : ViewDataBinding, DS : BaseDataSource, V
 
 
     open fun showLoading(msg: Any?) {
-        loading.show()
-        loading.setContnent(msg)
+        Loading.show(requireContext())
+        Loading.setContnent(msg)
 
     }
 

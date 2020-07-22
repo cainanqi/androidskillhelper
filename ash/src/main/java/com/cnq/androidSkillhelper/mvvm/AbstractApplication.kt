@@ -15,7 +15,7 @@ abstract class AbstractApplication : Application() {
         application = this
         context = applicationContext
         init()
-        Stetho.initializeWithDefaults(this)
+       // Stetho.initializeWithDefaults(this)
         SPUtils.initialize(this)
     }
 

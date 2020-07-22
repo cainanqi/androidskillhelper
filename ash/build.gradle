@@ -30,6 +30,11 @@ android {
         options.encoding = "UTF-8"
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
+
 }
 dependencies {
     // 如果你的library有依赖别的jar，这里要把jar依赖进来。
@@ -68,7 +73,7 @@ dependencies {
 }
 
 // 项目引用的版本号，比如compile 'com.yanzhenjie:andserver:1.0.1'中的1.0.1就是这里配置的。
-version = "1.01.24"
+version = "1.01.34"
 
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://https://github.com/cainanqi/androidSkillhelper' // 项目主页。
@@ -127,6 +132,22 @@ task javadoc(type: Javadoc) {
     failOnError false // 忽略注释语法错误，如果用jdk1.8你的注释写的不规范就编译不过。
 }
 
+
+//task to delete the old jar
+task deleteOldJar(type: Delete) {
+    delete 'release/AndroidPlugin.jar'
+}
+
+
+//task to export contents as jar
+task exportJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('release/')
+    include('classes.jar')
+    ///Rename the jar
+    rename('classes.jar', 'AndroidPlugin.jar')
+}
+exportJar.dependsOn(deleteOldJar, build)
 javadoc {
     options {
         encoding "UTF-8"

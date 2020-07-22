@@ -2,7 +2,9 @@ package com.cnq.testmodule.fragment
 
 import android.util.Log
 import androidx.lifecycle.Observer
+import com.cnq.androidSkillhelper.manager.Toast
 import com.cnq.androidSkillhelper.mvvm.BaseLiveDataFragment
+import com.cnq.androidSkillhelper.ui.dialog.Loading
 import com.cnq.testmodule.FirstDataSource
 import com.cnq.testmodule.R
 import com.cnq.testmodule.databinding.FragmentFirstBinding
@@ -30,7 +32,10 @@ class FirstFragment : BaseLiveDataFragment<FragmentFirstBinding, FirstDataSource
         button.setOnClickListener{
 //            Log.d("测试测试","一点击")
 //            mViewModel.showLoading("2222")
-            mViewModel.onRefresh()
+           // mViewModel.onRefresh()
+
+           // Loading.show(requireContext())
+            Toast.toast(requireContext(),"ahhahasdfhasdfasdfahhahasdfhasdfasdfahhahasdfhasdfasdfahhahasdfhasdfasdfahhahasdfhasdfasdf")
 
 //            findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
         }

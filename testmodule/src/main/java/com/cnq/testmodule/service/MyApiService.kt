@@ -1,7 +1,5 @@
 package com.cnq.testmodule.service
 
-import com.cnq.androidSkillhelper.net.retrofit.ApiService
-import com.cnq.androidSkillhelper.net.retrofit.Result
 import com.cnq.testmodule.MarkBean
 import io.reactivex.Observable
 import retrofit2.http.Body
