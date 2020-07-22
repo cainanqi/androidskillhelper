@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ash_white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="ash_ivory">#FFFFF0</color>
+    <!-- 象牙色 -->
+    <color name="ash_lightyellow">#FFFFE0</color>
+    <!-- 亮黄色 -->
+    <color name="ash_yellow">#FFFF00</color>
+    <!-- 黄色 -->
+    <color name="ash_snow">#FFFAFA</color>
+    <!-- 雪白色 -->
+    <color name="ash_floralwhite">#FFFAF0</color>
+    <!-- 花白色 -->
+    <color name="ash_lemonchiffon">#FFFACD</color>
+    <!-- 柠檬绸色 -->
+    <color name="ash_cornsilk">#FFF8DC</color>
+    <!-- 米绸色 -->
+    <color name="ash_seashell">#FFF5EE</color>
+    <!-- 海贝色 -->
+    <color name="ash_lavenderblush">#FFF0F5</color>
+    <!-- 淡紫红 -->
+    <color name="ash_papayawhip">#FFEFD5</color>
+    <!-- 番木色 -->
+    <color name="ash_blanchedalmond">#FFEBCD</color>
+    <!-- 白杏色 -->
+    <color name="ash_mistyrose">#FFE4E1</color>
+    <!-- 浅玫瑰色 -->
+    <color name="ash_bisque">#FFE4C4</color>
+    <!-- 桔黄色 -->
+    <color name="ash_moccasin">#FFE4B5</color>
+    <!-- 鹿皮色 -->
+    <color name="ash_navajowhite">#FFDEAD</color>
+    <!-- 纳瓦白 -->
+    <color name="ash_peachpuff">#FFDAB9</color>
+    <!-- 桃色 -->
+    <color name="ash_gold">#FFD700</color>
+    <!-- 金色 -->
+    <color name="ash_pink">#FFC0CB</color>
+    <!-- 粉红色 -->
+    <color name="ash_lightpink">#FFB6C1</color>
+    <!-- 亮粉红色 -->
+    <color name="ash_orange">#FFA500</color>
+    <!-- 橙色 -->
+    <color name="ash_lightsalmon">#FFA07A</color>
+    <!-- 亮肉色 -->
+    <color name="ash_darkorange">#FF8C00</color>
+    <!-- 暗桔黄色 -->
+    <color name="ash_coral">#FF7F50</color>
+    <!-- 珊瑚色 -->
+    <color name="ash_hotpink">#FF69B4</color>
+    <!-- 热粉红色 -->
+    <color name="ash_tomato">#FF6347</color>
+    <!-- 西红柿色 -->
+    <color name="ash_orangered">#FF4500</color>
+    <!-- 红橙色 -->
+    <color name="ash_deeppink">#FF1493</color>
+    <!-- 深粉红色 -->
+    <color name="ash_fuchsia">#FF00FF</color>
+    <!-- 紫红色 -->
+    <color name="ash_magenta">#FF00FF</color>
+    <!-- 红紫色 -->
+    <color name="ash_red">#FF0000</color>
+    <!-- 红色 -->
+    <color name="ash_oldlace">#FDF5E6</color>
+    <!-- 老花色 -->
+    <color name="ash_lightgoldenrodyellow">#FAFAD2</color>
+    <!-- 亮金黄色 -->
+    <color name="ash_linen">#FAF0E6</color>
+    <!-- 亚麻色 -->
+    <color name="ash_antiquewhite">#FAEBD7</color>
+    <!-- 古董白 -->
+    <color name="ash_salmon">#FA8072</color>
+    <!-- 鲜肉色 -->
+    <color name="ash_ghostwhite">#F8F8FF</color>
+    <!-- 幽灵白 -->
+    <color name="ash_mintcream">#F5FFFA</color>
+    <!-- 薄荷色 -->
+    <color name="ash_whitesmoke">#F5F5F5</color>
+    <!-- 烟白色 -->
+    <color name="ash_beige">#F5F5DC</color>
+    <!-- 米色 -->
+    <color name="ash_wheat">#F5DEB3</color>
+    <!-- 浅黄色 -->
+    <color name="ash_sandybrown">#F4A460</color>
+    <!-- 沙褐色 -->
+    <color name="ash_azure">#F0FFFF</color>
+    <!-- 天蓝色 -->
+    <color name="ash_honeydew">#F0FFF0</color>
+    <!-- 蜜色 -->
+    <color name="ash_aliceblue">#F0F8FF</color>
+    <!-- 艾利斯兰 -->
+    <color name="ash_khaki">#F0E68C</color>
+    <!-- 黄褐色 -->
+    <color name="ash_lightcoral">#F08080</color>
+    <!-- 亮珊瑚色 -->
+    <color name="ash_palegoldenrod">#EEE8AA</color>
+    <!-- 苍麒麟色 -->
+    <color name="ash_violet">#EE82EE</color>
+    <!-- 紫罗兰色 -->
+    <color name="ash_darksalmon">#E9967A</color>
+    <!-- 暗肉色 -->
+    <color name="ash_lavender">#E6E6FA</color>
+    <!-- 淡紫色 -->
+    <color name="ash_lightcyan">#E0FFFF</color>
+    <!-- 亮青色 -->
+    <color name="ash_burlywood">#DEB887</color>
+    <!-- 实木色 -->
+    <color name="ash_plum">#DDA0DD</color>
+    <!-- 洋李色 -->
+    <color name="ash_gainsboro">#DCDCDC</color>
+    <!-- 淡灰色 -->
+    <color name="ash_crimson">#DC143C</color>
+    <!-- 暗深红色 -->
+    <color name="ash_palevioletred">#DB7093</color>
+    <!-- 苍紫罗兰色 -->
+    <color name="ash_goldenrod">#DAA520</color>
+    <!-- 金麒麟色 -->
+    <color name="ash_orchid">#DA70D6</color>
+    <!-- 淡紫色 -->
+    <color name="ash_thistle">#D8BFD8</color>
+    <!-- 蓟色 -->
+    <color name="ash_lightgray">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="ash_lightgrey">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="ash_tan">#D2B48C</color>
+    <!-- 茶色 -->
+    <color name="ash_chocolate">#D2691E</color>
+    <!-- 巧可力色 -->
+    <color name="ash_peru">#CD853F</color>
+    <!-- 秘鲁色 -->
+    <color name="ash_indianred">#CD5C5C</color>
+    <!-- 印第安红 -->
+    <color name="ash_mediumvioletred">#C71585</color>
+    <!-- 中紫罗兰色 -->
+    <color name="ash_silver">#C0C0C0</color>
+    <!-- 银色 -->
+    <color name="ash_darkkhaki">#BDB76B</color>
+    <!-- 暗黄褐色 -->
+    <color name="ash_rosybrown">#BC8F8F</color>
+    <!-- 褐玫瑰红 -->
+    <color name="ash_mediumorchid">#BA55D3</color>
+    <!-- 中粉紫色 -->
+    <color name="ash_darkgoldenrod">#B8860B</color>
+    <!-- 暗金黄色 -->
+    <color name="ash_firebrick">#B22222</color>
+    <!-- 火砖色 -->
+    <color name="ash_powderblue">#B0E0E6</color>
+    <!-- 粉蓝色 -->
+    <color name="ash_lightsteelblue">#B0C4DE</color>
+    <!-- 亮钢兰色 -->
+    <color name="ash_paleturquoise">#AFEEEE</color>
+    <!-- 苍宝石绿 -->
+    <color name="ash_greenyellow">#ADFF2F</color>
+    <!-- 黄绿色 -->
+    <color name="ash_lightblue">#ADD8E6</color>
+    <!-- 亮蓝色 -->
+    <color name="ash_darkgray">#A9A9A9</color>
+    <!-- 暗灰色 -->
+    <color name="ash_brown">#A52A2A</color>
+    <!-- 褐色 -->
+    <color name="ash_sienna">#A0522D</color>
+    <!-- 赭色 -->
+    <color name="ash_darkorchid">#9932CC</color>
+    <!-- 暗紫色 -->
+    <color name="ash_palegreen">#98FB98</color>
+    <!-- 苍绿色 -->
+    <color name="ash_darkviolet">#9400D3</color>
+    <!-- 暗紫罗兰色 -->
+    <color name="ash_mediumpurple">#9370DB</color>
+    <!-- 中紫色 -->
+    <color name="ash_lightgreen">#90EE90</color>
+    <!-- 亮绿色 -->
+    <color name="ash_darkseagreen">#8FBC8F</color>
+    <!-- 暗海兰色 -->
+    <color name="ash_saddlebrown">#8B4513</color>
+    <!-- 重褐色 -->
+    <color name="ash_darkmagenta">#8B008B</color>
+    <!-- 暗洋红 -->
+    <color name="ash_darkred">#8B0000</color>
+    <!-- 暗红色 -->
+    <color name="ash_blueviolet">#8A2BE2</color>
+    <!-- 紫罗兰蓝色 -->
+    <color name="ash_lightskyblue">#87CEFA</color>
+    <!-- 亮天蓝色 -->
+    <color name="ash_skyblue">#87CEEB</color>
+    <!-- 天蓝色 -->
+
+    <color name="ash_grey">#808080</color>
+    <!-- 灰色 -->
+    <color name="ash_olive">#808000</color>
+    <!-- 橄榄色 -->
+    <color name="ash_purple">#800080</color>
+    <!-- 紫色 -->
+    <color name="ash_maroon">#800000</color>
+    <!-- 粟色 -->
+    <color name="ash_aquamarine">#7FFFD4</color>
+    <!-- 碧绿色 -->
+    <color name="ash_chartreuse">#7FFF00</color>
+    <!-- 黄绿色 -->
+    <color name="ash_lawngreen">#7CFC00</color>
+    <!-- 草绿色 -->
+    <color name="ash_mediumslateblue">#7B68EE</color>
+    <!-- 中暗蓝色 -->
+    <color name="ash_lightslategray">#778899</color>
+    <!-- 亮蓝灰 -->
+    <color name="ash_lightslategrey">#778899</color>
+    <!-- 亮蓝灰 -->
+    <color name="ash_slategray">#708090</color>
+    <!-- 灰石色 -->
+    <color name="ash_slategrey">#708090</color>
+    <!-- 灰石色 -->
+    <color name="ash_olivedrab">#6B8E23</color>
+    <!-- 深绿褐色 -->
+    <color name="ash_slateblue">#6A5ACD</color>
+    <!-- 石蓝色 -->
+    <color name="ash_dimgray">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="ash_dimgrey">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="ash_mediumaquamarine">#66CDAA</color>
+    <!-- 中绿色 -->
+    <color name="ash_cornflowerblue">#6495ED</color>
+    <!-- 菊兰色 -->
+    <color name="ash_cadetblue">#5F9EA0</color>
+    <!-- 军兰色 -->
+    <color name="ash_darkolivegreen">#556B2F</color>
+    <!-- 暗橄榄绿 -->
+    <color name="ash_indigo">#4B0082</color>
+    <!-- 靛青色 -->
+    <color name="ash_mediumturquoise">#48D1CC</color>
+    <!-- 中绿宝石 -->
+    <color name="ash_darkslateblue">#483D8B</color>
+    <!-- 暗灰蓝色 -->
+    <color name="ash_steelblue">#4682B4</color>
+    <!-- 钢兰色 -->
+    <color name="ash_royalblue">#4169E1</color>
+    <!-- 皇家蓝 -->
+    <color name="ash_turquoise">#40E0D0</color>
+    <!-- 青绿色 -->
+    <color name="ash_mediumseagreen">#3CB371</color>
+    <!-- 中海蓝 -->
+    <color name="ash_limegreen">#32CD32</color>
+    <!-- 橙绿色 -->
+    <color name="ash_darkslategray">#2F4F4F</color>
+    <!-- 暗瓦灰色 -->
+    <color name="ash_darkslategrey">#2F4F4F</color>
+    <!-- 暗瓦灰色 -->
+    <color name="ash_seagreen">#2E8B57</color>
+    <!-- 海绿色 -->
+    <color name="ash_forestgreen">#228B22</color>
+    <!-- 森林绿 -->
+    <color name="ash_lightseagreen">#20B2AA</color>
+    <!-- 亮海蓝色 -->
+    <color name="ash_dodgerblue">#1E90FF</color>
+    <!-- 闪兰色 -->
+    <color name="ash_midnightblue">#191970</color>
+    <!-- 中灰兰色 -->
+    <color name="ash_aqua">#00FFFF</color>
+    <!-- 浅绿色 -->
+    <color name="ash_cyan">#00FFFF</color>
+    <!-- 青色 -->
+    <color name="ash_springgreen">#00FF7F</color>
+    <!-- 春绿色 -->
+    <color name="ash_lime">#00FF00</color>
+    <!-- 酸橙色 -->
+    <color name="ash_mediumspringgreen">#00FA9A</color>
+    <!-- 中春绿色 -->
+    <color name="ash_darkturquoise">#00CED1</color>
+    <!-- 暗宝石绿 -->
+    <color name="ash_deepskyblue">#00BFFF</color>
+    <!-- 深天蓝色 -->
+    <color name="ash_darkcyan">#008B8B</color>
+    <!-- 暗青色 -->
+    <color name="ash_teal">#008080</color>
+    <!-- 水鸭色 -->
+    <color name="ash_green">#008000</color>
+    <!-- 绿色 -->
+    <color name="ash_darkgreen">#006400</color>
+    <!-- 暗绿色 -->
+    <color name="ash_blue">#0000FF</color>
+    <!-- 蓝色 -->
+    <color name="ash_mediumblue">#0000CD</color>
+    <!-- 中兰色 -->
+    <color name="ash_darkblue">#00008B</color>
+    <!-- 暗蓝色 -->
+    <color name="ash_navy">#000080</color>
+    <!-- 海军色 -->
+    <color name="ash_black">#000000</color>
+    <!-- 黑色 -->
+    <color name="ash_colorPrimary">#3F51B5</color>
+    <color name="ash_colorPrimaryDark">#303F9F</color>
+    <color name="ash_colorAccent">#FF4081</color>
+    <color name="ash_searkBarColor">#cf5a2d</color>
+
+    <color name="ash_light_blue">#00acff</color>
+
+    <color name="ash_pale_orange">#f2d7af</color>
+    <color name="ash_gree">#99cc33</color>
+    <color name="ash_orange_red">#ff6200</color>
+    <color name="ash_toobar">#E56534</color>
+    <color name="ash_greenish_orange">#EF763A</color>
+    <color name="ash_red_soil">#F5956B</color>
+    <color name="ash_earth">#F8A357</color>
+    <color name="ash_light_earth">#FECC83</color>
+    <color name="ash_light_black">#8C8881</color>
+    <color name="ash_light_light_black">#B5AFA7</color>
+    <color name="ash_green_simple">#8DB572</color>
+    <color name="ash_dark_green">#7AA062</color>
+    <color name="ash_orange_simple">#FDBB4D</color>
+    <color name="ash_reddish">#F4E9D4</color>
+    <color name="ash_report">#3FCAEA</color>
+    <color name="ash_setting">#FDBB4D</color>
+    <color name="ash_gray_simple">#E9E5DD</color>
+    <color name="ash_dark_red">#e92a0d</color>
+    <color name="ash_red_normal">#FF0000</color>
+    <color name="ash_red_pressed">#FF6666</color>
+    <color name="ash_grays">#C5C5C5</color>
+    <color name="ash_demo_experience">#45b5f5</color>
+    <color name="ash_home_boss_bg">#fef6eb</color>
+    <color name="ash_yggl_ys">#605e5a</color>
+    <color name="ash_cbgl_bj">#6ef6eb</color>
+    <color name="ash_set_font_color">#d2bb90</color>
+    <color name="ash_bank">#F5BE3F</color>
+
+
+    <color name="ash_cash">#C0FF8C</color>
+    <color name="ash_wechat">#FFF78C</color>
+    <color name="ash_alipay">#FFD08B</color>
+    <color name="ash_bankcard">#8BEAFD</color>
+    <color name="ash_membershipcard">#FF8C9C</color>
+    <color name="ash_coupon">#D94E8A</color>
+    <color name="ash_discount">#FE9506</color>
+    <color name="ash_tabindicatorcolor">#ef763a</color>
+    <color name="ash_onegray">#acacac</color>
+
+    <!--爱丽丝蓝-->
+    <color name="ash_AliceBlue">#F0F8FF</color>
+    <!--古色古香的白色-->
+    <color name="ash_AntiqueWhite">#FAEBD7</color>
+    <!--水族-->
+    <color name="ash_Aqua">#00FFFF</color>
+    <!--蓝晶-->
+    <color name="ash_Aquamarine">#7FFFD4</color>
+    <!--天蓝-->
+    <color name="ash_Azure">#F0FFFF</color>
+    <!--米色-->
+    <color name="ash_Beige">#F5F5DC</color>
+    <!--浓汤-->
+    <color name="ash_Bisque">#FFE4C4</color>
+    <!--黑色-->
+    <color name="ash_Black">#000000</color>
+    <!--杏仁白-->
+    <color name="ash_BlanchedAlmond">#FFEBCD</color>
+    <!--蓝色-->
+    <color name="ash_Blue">#0000FF</color>
+    <!--紫罗兰色-->
+    <color name="ash_BlueViolet">#8A2BE2</color>
+    <!--棕色-->
+    <color name="ash_Brown">#A52A2A</color>
+    <!--原木色-->
+    <color name="ash_BurlyWood">#DEB887</color>
+    <!--藏青-->
+    <color name="ash_CadetBlue">#5F9EA0</color>
+    <!--黄绿色-->
+    <color name="ash_Chartreuse">#7FFF00</color>
+    <!--巧克力-->
+    <color name="ash_Chocolate">#D2691E</color>
+    <!--珊瑚-->
+    <color name="ash_Coral">#FF7F50</color>
+    <!--矢菊花-->
+    <color name="ash_CornflowerBlue">#6495ED</color>
+    <!--玉米穗黄-->
+    <color name="ash_Cornsilk">#FFF8DC</color>
+    <!--赤红-->
+    <color name="ash_Crimson">#DC143C</color>
+    <!--青色-->
+    <color name="ash_Cyan">#00FFFF</color>
+    <!--深蓝-->
+    <color name="ash_DarkBlue">#00008B</color>
+    <!--深青绿-->
+    <color name="ash_DarkCyan">#008B8B</color>
+    <!--深金黄-->
+    <color name="ash_DarkGoldenRod">#B8860B</color>
+    <!--深灰色-->
+    <color name="ash_DarkGray">#A9A9A9</color>
+    <!--深绿色-->
+    <color name="ash_DarkGreen">#006400</color>
+    <!--深卡其色-->
+    <color name="ash_DarkKhaki">#BDB76B</color>
+    <!--深洋红-->
+    <color name="ash_DarkMagenta">#8B008B</color>
+    <!--深橄榄绿-->
+    <color name="ash_DarkOliveGreen">#556B2F</color>
+    <!--深橙-->
+    <color name="ash_Darkorange">#FF8C00</color>
+    <!--深兰花紫-->
+    <color name="ash_DarkOrchid">#9932CC</color>
+    <!--深红-->
+    <color name="ash_DarkRed">#8B0000</color>
+    <!--深橙红-->
+    <color name="ash_DarkSalmon">#E9967A</color>
+    <!--海藻绿-->
+    <color name="ash_DarkSeaGreen">#8FBC8F</color>
+    <!--深青蓝-->
+    <color name="ash_DarkSlateBlue">#483D8B</color>
+    <!--深青灰-->
+    <color name="ash_DarkSlateGray">#2F4F4F</color>
+    <!--深粉蓝-->
+    <color name="ash_DarkTurquoise">#00CED1</color>
+    <!--深紫-->
+    <color name="ash_DarkViolet">#9400D3</color>
+    <!--深粉红-->
+    <color name="ash_DeepPink">#FF1493</color>
+    <!--深天蓝-->
+    <color name="ash_DeepSkyBlue">#00BFFF</color>
+    <!--暗灰-->
+    <color name="ash_DimGray">#696969</color>
+    <!--宝蓝-->
+    <color name="ash_DodgerBlue">#1E90FF</color>
+    <!--长石-->
+    <color name="ash_Feldspar">#D19275</color>
+    <!--耐火砖-->
+    <color name="ash_FireBrick">#B22222</color>
+    <!--花白-->
+    <color name="ash_FloralWhite">#FFFAF0</color>
+    <!--森林绿-->
+    <color name="ash_ForestGreen">#228B22</color>
+    <!--紫红色-->
+    <color name="ash_Fuchsia">#FF00FF</color>
+    <!--亮灰-->
+    <color name="ash_Gainsboro">#DCDCDC</color>
+    <!--幽灵的白色-->
+    <color name="ash_GhostWhite">#F8F8FF</color>
+    <!--金色-->
+    <color name="ash_Gold">#FFD700</color>
+    <!--黄花-->
+    <color name="ash_GoldenRod">#DAA520</color>
+    <!--灰色-->
+    <color name="ash_Gray">#808080</color>
+
+    <!--黄绿色-->
+    <color name="ash_GreenYellow">#ADFF2F</color>
+    <!--甘露-->
+    <color name="ash_HoneyDew">#F0FFF0</color>
+    <!--亮粉色-->
+    <color name="ash_HotPink">#FF69B4</color>
+    <!--印度红-->
+    <color name="ash_IndianRed">#CD5C5C</color>
+    <!--靛青-->
+    <color name="ash_Indigo">#4B0082</color>
+    <!--象牙-->
+    <color name="ash_Ivory">#FFFFF0</color>
+    <!--黄褐色-->
+    <color name="ash_Khaki">#F0E68C</color>
+    <!--薰衣草-->
+    <color name="ash_Lavender">#E6E6FA</color>
+    <!--淡紫-->
+    <color name="ash_LavenderBlush">#FFF0F5</color>
+    <!--草绿-->
+    <color name="ash_LawnGreen">#7CFC00</color>
+    <!--粉黄-->
+    <color name="ash_LemonChiffon">#FFFACD</color>
+    <!--浅蓝-->
+    <color name="ash_LightBlue">#ADD8E6</color>
+    <!--浅珊瑚红-->
+    <color name="ash_LightCoral">#F08080</color>
+    <!--浅青绿-->
+    <color name="ash_LightCyan">#E0FFFF</color>
+    <!--浅金黄-->
+    <color name="ash_LightGoldenRodYellow">#FAFAD2</color>
+    <!--浅灰色-->
+    <color name="ash_LightGrey">#D3D3D3</color>
+    <!--浅绿-->
+    <color name="ash_LightGreen">#90EE90</color>
+    <!--淡粉色-->
+    <color name="ash_LightPink">#FFB6C1</color>
+    <!--橙红-->
+    <color name="ash_LightSalmon">#FFA07A</color>
+    <!--海藻绿-->
+    <color name="ash_LightSeaGreen">#20B2AA</color>
+    <!--天蓝-->
+    <color name="ash_LightSkyBlue">#87CEFA</color>
+    <!--光蓝色-->
+    <color name="ash_LightSlateBlue">#8470FF</color>
+    <!--青灰-->
+    <color name="ash_LightSlateGray">#778899</color>
+    <!--浅钢-->
+    <color name="ash_LightSteelBlue">#B0C4DE</color>
+    <!--浅黄色-->
+    <color name="ash_LightYellow">#FFFFE0</color>
+    <!--青柠-->
+    <color name="ash_Lime">#00FF00</color>
+    <!--暗绿-->
+    <color name="ash_LimeGreen">#32CD32</color>
+    <!--麻布-->
+    <color name="ash_Linen">#FAF0E6</color>
+    <!--品红-->
+    <color name="ash_Magenta">#FF00FF</color>
+    <!--栗色-->
+    <color name="ash_Maroon">#800000</color>
+    <!--草绿-->
+    <color name="ash_MediumAquaMarine">#66CDAA</color>
+    <!--暗蓝-->
+    <color name="ash_MediumBlue">#0000CD</color>
+    <!--暗兰花-->
+    <color name="ash_MediumOrchid">#BA55D3</color>
+    <!--暗紫-->
+    <color name="ash_MediumPurple">#9370D8</color>
+    <!--暗海藻-->
+    <color name="ash_MediumSeaGreen">#3CB371</color>
+    <!--青蓝-->
+    <color name="ash_MediumSlateBlue">#7B68EE</color>
+    <!--嫩绿-->
+    <color name="ash_MediumSpringGreen">#00FA9A</color>
+    <!--粉蓝-->
+    <color name="ash_MediumTurquoise">#48D1CC</color>
+    <!--暗紫-->
+    <color name="ash_MediumVioletRed">#C71585</color>
+    <!--黑蓝-->
+    <color name="ash_MidnightBlue">#191970</color>
+    <!--薄荷乳白-->
+    <color name="ash_MintCream">#F5FFFA</color>
+    <!--粉玫瑰红-->
+    <color name="ash_MistyRose">#FFE4E1</color>
+    <!--莫卡辛-->
+    <color name="ash_Moccasin">#FFE4B5</color>
+    <!--土著白-->
+    <color name="ash_NavajoWhite">#FFDEAD</color>
+    <!--深蓝色-->
+    <color name="ash_Navy">#000080</color>
+    <!--旧布黄-->
+    <color name="ash_OldLace">#FDF5E6</color>
+    <!--黄绿色-->
+    <color name="ash_Olive">#808000</color>
+    <!--淡绿褐-->
+    <color name="ash_OliveDrab">#6B8E23</color>
+
+    <!--橙红色-->
+    <color name="ash_OrangeRed">#FF4500</color>
+    <!--兰花-->
+    <color name="ash_Orchid">#DA70D6</color>
+    <!--淡金黄-->
+    <color name="ash_PaleGoldenRod">#EEE8AA</color>
+    <!--浅绿色-->
+    <color name="ash_PaleGreen">#98FB98</color>
+    <!--淡蓝绿-->
+    <color name="ash_PaleTurquoise">#AFEEEE</color>
+    <!--浅紫红-->
+    <color name="ash_PaleVioletRed">#D87093</color>
+    <!--粉木瓜橙-->
+    <color name="ash_PapayaWhip">#FFEFD5</color>
+    <!--粉桃红-->
+    <color name="ash_PeachPuff">#FFDAB9</color>
+    <!--秘鲁-->
+    <color name="ash_Peru">#CD853F</color>
+    <!--粉-->
+    <color name="ash_Pink">#FFC0CB</color>
+    <!--李子-->
+    <color name="ash_Plum">#DDA0DD</color>
+    <!--粉蓝色-->
+    <color name="ash_PowderBlue">#B0E0E6</color>
+    <!--紫色-->
+    <color name="ash_Purple">#800080</color>
+    <!--红-->
+    <color name="ash_Red">#FF0000</color>
+    <!--玫瑰褐-->
+    <color name="ash_RosyBrown">#BC8F8F</color>
+    <!--宝蓝色-->
+    <color name="ash_RoyalBlue">#4169E1</color>
+    <!--重褐色-->
+    <color name="ash_SaddleBrown">#8B4513</color>
+    <!--三文鱼-->
+    <color name="ash_Salmon">#FA8072</color>
+    <!--黄褐色-->
+    <color name="ash_SandyBrown">#F4A460</color>
+    <!--海绿色-->
+    <color name="ash_SeaGreen">#2E8B57</color>
+    <!--贝壳-->
+    <color name="ash_SeaShell">#FFF5EE</color>
+    <!--赭色-->
+    <color name="ash_Sienna">#A0522D</color>
+    <!--银-->
+    <color name="ash_Silver">#C0C0C0</color>
+    <!--天蓝色-->
+    <color name="ash_SkyBlue">#87CEEB</color>
+    <!--青蓝-->
+    <color name="ash_SlateBlue">#6A5ACD</color>
+    <!--青灰-->
+    <color name="ash_SlateGray">#708090</color>
+    <!--雪白色-->
+    <color name="ash_Snow">#FFFAFA</color>
+    <!--嫩绿-->
+    <color name="ash_SpringGreen">#00FF7F</color>
+    <!--钢青-->
+    <color name="ash_SteelBlue">#4682B4</color>
+    <!--黄褐色-->
+    <color name="ash_Tan">#D2B48C</color>
+    <!--蓝绿色-->
+    <color name="ash_Teal">#008080</color>
+    <!--蓟-->
+    <color name="ash_Thistle">#D8BFD8</color>
+    <!--番茄-->
+    <color name="ash_Tomato">#FF6347</color>
+    <!--绿松石-->
+    <color name="ash_Turquoise">#40E0D0</color>
+    <!--紫色-->
+    <color name="ash_Violet">#EE82EE</color>
+    <!--紫罗兰红-->
+    <color name="ash_VioletRed">#D02090</color>
+    <!--小麦-->
+    <color name="ash_Wheat">#F5DEB3</color>
+
+    <!--白色的烟-->
+    <color name="ash_WhiteSmoke">#F5F5F5</color>
+    <!--黄色-->
+    <color name="ash_Yellow">#FFFF00</color>
+    <!--黄绿色-->
+    <color name="ash_YellowGreen">#9ACD32</color>
+   
+</resources>
