@@ -12,6 +12,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.cnq.androidSkillhelper.manager.Timer
+import com.cnq.androidSkillhelper.manager.Toast
 import com.cnq.androidSkillhelper.ui.dialog.Loading
 
 /**
@@ -41,10 +42,23 @@ abstract class BaseLiveDataFragment<VB : ViewDataBinding, DS : BaseDataSource, V
     }
 
 
-    open fun showLoading(msg: Any?) {
+    open fun loading(msg: Any?) {
         Loading.show(requireContext())
         Loading.setContnent(msg)
 
+    }
+
+    open fun loading() {
+        Loading.show(requireContext())
+
+    }
+
+    open fun closeLoading() {
+        Loading.cancel()
+    }
+
+    open fun toast(msg: Any?) {
+        Toast.toast(requireContext(), msg)
     }
 
     //定时器
@@ -66,11 +80,34 @@ abstract class BaseLiveDataFragment<VB : ViewDataBinding, DS : BaseDataSource, V
         mViewModel = ViewModelProvider(this, factory).get(initViewModel()::class.java)
         mBinding.lifecycleOwner = this
         viewLifecycleOwner.lifecycle.addObserver(mViewModel.initDataSource())
-        mViewModel.getLoading().observe(viewLifecycleOwner, Observer {
-            Log.d("测试测试", "已检测到更新$it")
-            showLoading(it)
-        })
+        initObserver()
+
         onBindingView()
+    }
+
+    private fun initObserver() {
+        mViewModel.showDialog.observe(viewLifecycleOwner, Observer {
+            when (it) {
+                null -> {
+                    loading()
+                }
+                BaseLiveDataViewModel.CLOSE_LOADING -> {
+                    closeLoading()
+                }
+                else -> {
+                    loading(it)
+                }
+            }
+        })
+        mViewModel.mDataSource.defUI.showDialog.observe(viewLifecycleOwner, Observer {
+            loading()
+        })
+        mViewModel.mDataSource.defUI.dismissDialog.observe(viewLifecycleOwner, Observer {
+            closeLoading()
+        })
+        mViewModel.mDataSource.defUI.toastEvent.observe(viewLifecycleOwner, Observer {
+            toast(it)
+        })
     }
 
     abstract fun getLayoutId(): Int

@@ -33,7 +33,7 @@ class FirstFragment : BaseLiveDataFragment<FragmentFirstBinding, FirstDataSource
 //            Log.d("测试测试","一点击")
 //            mViewModel.showLoading("2222")
            // mViewModel.onRefresh()
-
+            mViewModel.mDataSource.getCurrentTime()
            // Loading.show(requireContext())
             Toast.toast(requireContext(),"ahhahasdfhasdfasdfahhahasdfhasdfasdfahhahasdfhasdfasdfahhahasdfhasdfasdfahhahasdfhasdfasdf")
 

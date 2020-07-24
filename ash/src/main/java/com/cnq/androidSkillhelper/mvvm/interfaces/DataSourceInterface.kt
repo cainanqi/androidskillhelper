@@ -1,4 +1,4 @@
-package com.cnq.androidSkillhelper.mvvm.`interface`
+package com.cnq.androidSkillhelper.mvvm.interfaces
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle
@@ -17,6 +17,7 @@ interface  DataSourceInterface : LifecycleObserver {
 
  @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
  public fun doOnCreate() {
+
   Log.d("BaseDataSource", "ON_CREATE")
  }
 

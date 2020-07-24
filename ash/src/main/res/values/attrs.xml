@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <declare-styleable name="CommonTitleLayout" tools:ignore="ResourceName">
-        <attr name="ash_title" format="string"  />
-        <attr name="ash_background" format="reference|color"  />
+        <attr name="ash_title" format="string" />
+        <attr name="ash_background" format="reference|color" />
+        <attr name="ash_type" format="enum">
+            <enum name="text_img" value="0" />
+            <enum name="text_text" value="1" />
+            <enum name="img_img" value="2" />
+            <enum name="img_text" value="3" />
+        </attr>
     </declare-styleable>
 </resources>

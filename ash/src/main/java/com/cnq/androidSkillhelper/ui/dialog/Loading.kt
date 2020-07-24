@@ -37,7 +37,7 @@ class Loading(context: Context) : Dialog(context, R.style.MDialog) {
 
         fun cancel() {
             if (instance != null) {
-                instance!!.cancel()
+                instance?.cancel()
             }
         }
     }

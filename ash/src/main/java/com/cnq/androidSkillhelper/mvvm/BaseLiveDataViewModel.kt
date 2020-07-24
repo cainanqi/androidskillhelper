@@ -3,6 +3,8 @@ package com.cnq.androidSkillhelper.mvvm
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider.NewInstanceFactory
+import com.cnq.androidSkillhelper.manager.Toast
+import com.cnq.androidSkillhelper.ui.dialog.Loading
 
 /**
  * ============================
@@ -14,11 +16,20 @@ import androidx.lifecycle.ViewModelProvider.NewInstanceFactory
  **/
 @Suppress("UNCHECKED_CAST")
 abstract class BaseLiveDataViewModel<DS : BaseDataSource> : ViewModel() {
-    protected var mDataSource: DS
+    companion object {
+       const val CLOSE_LOADING = "LEON1992"
+    }
+
+    var mDataSource: DS
 
 
-    private val showDialog: MutableLiveData<String> by lazy {
-        MutableLiveData<String>()
+
+
+
+
+
+    val showDialog: MutableLiveData<String?> by lazy {
+        MutableLiveData<String?>()
     }
 
 
@@ -30,12 +41,17 @@ abstract class BaseLiveDataViewModel<DS : BaseDataSource> : ViewModel() {
     //返回了datasource
     public abstract fun initDataSource(): DS
 
-    fun showLoading(string: String) {
+    protected fun loading(string: String?) {
         showDialog.value = string
     }
 
-    fun getLoading(): MutableLiveData<String> {
-        return showDialog
+    protected fun loading() {
+        showDialog.value = null
+    }
+
+    protected fun closeLoading() {
+        showDialog.value = CLOSE_LOADING
+
     }
 
 

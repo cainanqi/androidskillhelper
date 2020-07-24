@@ -4,20 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-<variable
-    name="model"
-    type="com.cnq.testmodule.viewmodel.FirstViewModel" />
+
+        <variable
+            name="model"
+            type="com.cnq.testmodule.viewmodel.FirstViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".fragment.FirstFragment">
-<com.cnq.androidSkillhelper.ui.CommonTitleLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:ash_title=""/>
 
+
+        <com.cnq.androidSkillhelper.ui.CommonTitleLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:ash_title="hello"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:ash_type="text_text"/>
 
 
         <TextView
